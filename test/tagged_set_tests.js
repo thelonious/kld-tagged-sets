@@ -100,6 +100,19 @@ exports.inBoth = function(beforeExit, assert) {
     assert.eql(['three'], result);
 };
 
+exports.notInBoth = function(beforeExit, assert) {
+    var set = new TaggedSet();
+
+    set.add('one', 'a');
+    set.add('three', 'a');
+    set.add('two', 'b');
+    set.add('three', 'b');
+
+    var result = set.filter(/^ab$/, true);
+
+    assert.eql(['one', 'two'], result.sort());
+};
+
 exports.duplicateInFirst = function(beforeExit, assert) {
     var set = new TaggedSet();
 
