@@ -2,21 +2,27 @@
   "name": "kld-collections",
   "version": "0.0.0",
   "description": "A simple utility for discovering unique and duplicate lines of text",
-  "author": "Kevin Lindsey <kevin@kevlindev.com>",
-  "license": "BSD",
-  "main": "node tagged-sets",
-  "scripts": {
-    "test": "expresso"
+  "author": {
+    "name": "Kevin Lindsey",
+    "email": "kevin@kevlindev.com"
   },
+  "license": "BSD",
   "repository": {
     "type": "git",
     "url": "https://github.com/thelonious/kld-collections.git"
+  },
+  "main": "index",
+  "scripts": {
+    "test": "expresso"
+  },
+  "bin" : {
+    "tagged-sets": "./bin/tagged-sets.js"
   },
   "keywords": [
     "sets",
     "collections"
   ],
-  "dependencies": {
+  "devDependencies": {
     "expresso": "0.9.2"
   },
   "engines": {
