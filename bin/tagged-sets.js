@@ -2,7 +2,7 @@
 
 var fs        = require('fs'),
     async     = require('async'),
-    TaggedSet = require('./lib/TaggedSet');
+    TaggedSet = require('../lib/TaggedSet');
 
 var set = new TaggedSet();
 
