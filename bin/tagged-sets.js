@@ -2,7 +2,7 @@
 
 var fs        = require('fs'),
     async     = require('async'),
-    TaggedSet = require('../TaggedSet');
+    TaggedSet = require('kld-tagged-sets');
 
 var set = new TaggedSet();
 

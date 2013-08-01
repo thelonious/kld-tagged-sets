@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var TaggedSet = require('kld-tagged-set');
+var TaggedSet = require('kld-tagged-sets');
 var set = new TaggedSet();
 
 // add items for tag 'a'
