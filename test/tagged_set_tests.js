@@ -1,4 +1,4 @@
-var TaggedSet = require('../lib/TaggedSet');
+var TaggedSet = require('../TaggedSet');
 
 exports.inFirstOnly = function(beforeExit, assert) {
     var set = new TaggedSet();

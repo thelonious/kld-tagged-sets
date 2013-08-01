@@ -1,4 +1,4 @@
-kld-collections
+kld-tagged-sets
 ===============
 
 A simple utility for discovering unique and duplicate lines of text.
@@ -6,7 +6,7 @@ A simple utility for discovering unique and duplicate lines of text.
 Example
 -------
 
-    var TaggedSet = require('kld-collections').TaggedSet;
+    var TaggedSet = require('kld-tagged-sets');
     var set = new TaggedSet();
 
     // add items for tag 'a'
