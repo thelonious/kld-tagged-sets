@@ -3,6 +3,10 @@ kld-tagged-sets
 
 A simple utility for discovering unique and duplicate lines of text.
 
+Install
+-------
+    npm install kld-tagged-sets
+
 Example
 -------
 
